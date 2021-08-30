@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "brand-pwapilipinas-org",
+    "public": "dist/brand-pwapilipinas-org",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
